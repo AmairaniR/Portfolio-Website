@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Roboto:300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <title>Amairani Rosario | Portfolio</title>
+</head>
+
+<body>
+
+    <!-- No defined header section -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top text-uppercase" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button"
+                data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#connect">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content goes here split into sections/fragments -->
+    <main>
+
+        <!-- Utilizes flexbox styling not taught in class -->
+        <section class="fragment fragment-one">
+            <div class="headers">
+                <h1> Amairani (Amy) Rosario </h1>
+                <h3> Data Enthusiast | Web Developer | Machine Learning Junkie</h3>
+            </div>
+
+            <div class="learn">
+
+                <!-- You could hyperlink this down with a smooth scroll -->
+                <a href="#about"> Learn More </a>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </section>
+        <section class="fragment fragment-two" id="about">
+            <h2> About </h2>
+            <hr class="title-underline">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <!-- Edit this text with a brief intoduction / brand statement etc. -->
+                        <h5>
+                            Highly self-motivated and driven to construct clean and solid data pipelines optimized through continuous monitoring and testing performances for future analyses. Strengths include modern languages (English, Spanish, French, Italian), applying critical-thinking skills to find solutions to various data challenges, and presenting those solutions in creative and stunning, user-friendly visualizations.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Technology I Use</h3>
+            <hr class="title-underline">
+            <div class="container">
+                <div class="labels">
+                    <div class="tech">Python</div>
+                    <div class="tech">SQL</div>
+                    <div class="tech">JavaScript</div>
+                    <div class="tech">Pandas</div>
+                    <div class="tech">R</div>
+                    <div class="tech">Machine Learning</div>
+                </div>
+            </div>
+
+            <div class="learn">
+                <!-- You could hyperlink this down with a smooth scroll -->
+                <a href="#portfolio"> See Why You Should Hire Me </a>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+
+        </section>
+        <section class="fragment fragment-three" id="portfolio">
+            <h3>Things I've Made</h3>
+            <hr class="title-underline">
+            <div class="container carousel-container">
+
+                <!-- begin carousel -->
+                <!-- you should replace the placeholder images with actual images from your projects -->
+                <!-- images should be 800*600 or a matching ratio for best results -->
+                <div class="container">
+                    <div id="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-star fa-align"></i>
+            
+                            </div>
+                            <div class="timeline-content">
+                                <h2>Neural Network Charity Analysis</h2>
+                                <p>
+                                    Implemented a deep learning neural network binary classifier using TensorFlow capable of predicting whether applicants will be successful if funded by a non-profit organization and applied optimization techniques (i.e. KerasTuner) to the initial model to reach the target predictive accuracy.
+                                </p>
+                                <a href="https://github.com/AmairaniR/Neural_Network_Charity_Analysis" class="btn"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+            
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-star fa-align"></i>
+            
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>School Districts Analysis</h2>
+                                <p>
+                                    Aggregated the standardized reading and math test scores for schools in a district using Python and Pandas in Jupyter Notebook to establish trends in school performance to help decide budget allotments for the fiscal year.
+                                </p>
+                                <a href="https://github.com/AmairaniR/school-districts-analysis" class="btn"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+            
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-star fa-align"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h2>Amazon Vine Analysis</h2>
+                                <p>
+                                    Optimized the marketing efforts of Amazon’s book reviews by using PySpark to extract the data, transform it, and connect it to an AWS RDS instance. 
+                                    Loaded the transformed data into PgAdmin using PostgreSQL to create the tables.
+                                    Determined the presence of bias, using Pandas, towards favorable reviews from vine members, who are required to publish a review, versus non-vine members. 
+                                </p>
+                                <a href="https://github.com/AmairaniR/Amazon_Vine_Analysis" class="btn"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+            
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-star fa-align"></i>
+            
+                            </div>
+                            <div class="timeline-content right">
+                                <h2>MechaCar Statistical Analysis</h2>
+                                <p>
+                                    Performed retrospective analysis of historical data, analytical verification and validation of current automotive specifications, and study design of future product testing using statistical programming with R to facilitate the decision-making process for the manufacturing team
+                                </p>
+                                <a href="https://github.com/AmairaniR/MechaCar_Statistical_Analysis" class="btn"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+            
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-star fa-align"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h2>Mapping Earthquakes</h2>
+                                <p>
+                                    GeoJSON earthquake data from the US geological survey website is plotted using an API request from MapBox to show the magnitude of each earthquake through size and color. The position of the earthquakes along the tectonic plates is also visible. Three different map views are available (Streets, Satellite, and Navigation Night), with the possibility of overlaying earthquakes, major earthquakes, and tectonic plates either separately or together on the maps. Leaflet and javascript are used to complete the dashboard.
+                                </p>
+                                <a href="https://github.com/AmairaniR/mapping_earthquakes" class="btn"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <section class="fragment fragment-four" id="resume">
+           <h3>Resume</h3>
+           <hr class="title-underline">
+            <div class="container">
+                <div class="text-center mt-4">
+                    <a class="btn btn-lg btn-outline-light" href="https://github.com/AmairaniR/Portfolio/blob/main/resume/Amairani%20Rosario%20-%20DA_DS%20-%20Resume.pdf">
+                        <i class="fas fa-download mr-2"></i>
+                        Resume
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <section class="fragment fragment-five" id="education">
+            <h3>My Education</h3>
+            <hr class="title-underline">
+
+            <!-- Don't forget to swap out the universities and education to match your own-->
+            <div class="container">
+                <h5> Columbia University</h5>
+                <p class="credential"> Data Visualisation Bootcamp | 2022</p>
+                <h5> Princeton University</h5>
+                <p class="credential"> Ph.D. French | On leave</p>
+                <h5> University of Illinois Chicago</h5>
+                <p class="credential"> M.A. French | 2018 - 2020</p>
+                <h5> Florida State University</h5>
+                <p class="credential"> B.A. French | 2014 - 2017</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="fragment fragment-six" id="connect">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6>Amairani Rosario</h6>
+
+                        <!--update these links to match your own social media profiles -->
+                        <a href="https://linkedin.com/in/amairani-rosario" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/AmairaniR" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="mailto:<amairanirosario22@gmail.com>" class="social-icon"><i class="fas fa-envelope"></i></a>
+                        <p class="text-muted copyright">Amairani Rosario &copy; 2022 - 2023 </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
